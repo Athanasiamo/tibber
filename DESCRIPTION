@@ -1,0 +1,19 @@
+Package: tibber
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Authors@R: person("Athanasia Mo", "Mowinckel", 
+                    email = "a.m.mowinckel@psykologi.uio.no", 
+                    role = c("aut", "cre"),
+                    comment = c(ORCID = "0000-0002-5756-0223"))
+Description: Work in progress. Access the Tibber API
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    ghql,
+    httr,
+    jsonlite
+RoxygenNote: 7.1.2
+Suggests: 
+    covr
