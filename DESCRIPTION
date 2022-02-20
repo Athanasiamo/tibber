@@ -1,18 +1,21 @@
 Package: tibber
 Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
+Title: Access the Tibber API
+Version: 0.0.1
 Authors@R: person("Athanasia Mo", "Mowinckel", 
                     email = "a.m.mowinckel@psykologi.uio.no", 
                     role = c("aut", "cre"),
                     comment = c(ORCID = "0000-0002-5756-0223"))
-Description: Work in progress. Access the Tibber API
+Description: This is a work in progress, and should provide 
+    access to the Tibber API.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Imports: 
+    dplyr,
     ghql,
     httr,
+    janitor,
     jsonlite
 RoxygenNote: 7.1.2
 Suggests: 
